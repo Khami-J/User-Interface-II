@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+	
+}
+body {
+	font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #87CEEB;
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box; 
+    padding:0;
+    margin:0;
+    max-width:100%;
+    
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    font-size: larger;
+}
+.p nav{
+    width:20vh
+}
+.bgimg{
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 2% 25% 0 25%;
+}
+.nav{
+    display: flex;
+    width: 50%;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+   
+}
+.links{
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+.me{
+    display: flex;
+    justify-content: center ;
+    align-items:center ;
+    flex-wrap:wrap;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    height:40vh;
+    font-size: 200%;
+    color:white;
+}
+.container{
+    display:flex;
+    flex-flow:flow wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+    
+  .container div {
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+    margin:2%;
+  }
+  .item1{
+      background-image: url(https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+      background-size: cover;
+  }
+.item2{
+    background-image: url(https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y3JvcHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position:bottom ;
+}
+.item3{
+    background-image:url(https://images.unsplash.com/photo-1592962878377-62c1ada7b1d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3Jhc3MlMjBmZWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size:cover;
+    background-position: bottom;
+}
+.item4{
+background-image: url(https://images.unsplash.com/photo-1594771804886-a933bb2d609b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhY3RvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+background-size: cover;
+background-position: bottom;
+}
+.item5{
+background-image: url(https://images.unsplash.com/photo-1618031312993-f93038f30365?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZhbWlseSUyMGZhcm18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+background-size: cover;
+background-position: bottom;
+}
+.item6{
+    background-image: url(https://images.unsplash.com/photo-1606931104065-82558dca1913?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fGhlbiUyMG9uJTIwZWdnc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:#e6e6fa;
+    padding-top: 3%;
+}
+@media (max-width: 800px){
+    nav{
+        font-size: 2.25rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content:flex-start;
+        display: block;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 48%;
+
+    }
+    
+
+    }
+    .name{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container div{
+        display:flex;
+        flex-flow:flow wrap;
+        margin:1%;
+    }
+
+     .me{
+    margin-top: 50%;
+    
+    }
+}
+@media (max-width:500px){
+.container div{
+    flex-wrap: wrap;
+    width:250px;
+}
+}
