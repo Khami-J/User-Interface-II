@@ -182,4 +182,14 @@ footer{
     div.me{
         margin-top: 60%;
     }
+    .container{
+        flex-wrap: wrap;
+    }
+    .container div{
+        width: 30%;
+        height: 40vh;
+        border: 1px solid black;
+        margin-left:12%;
+    }
+
 }
