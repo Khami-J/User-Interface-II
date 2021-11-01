@@ -23,7 +23,7 @@ body {
 	font-size:1.6rem;
     line-height:1.5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #87CEEB;
+    background-color: #87CEEB;x;
 }
 html{
     font-size: 62.5%;
@@ -82,8 +82,9 @@ nav{
     font-size: 200%;
     color:white;
     margin-top: 0%;
-    background-size:cover;
-    background-position: bottom;
+}
+div.me{
+    
 }
 .container{
     display:flex;
@@ -149,4 +150,36 @@ footer{
     padding-top: 5%;
     margin-bottom: 1%;
     align-items:flex-start;
+}
+/*media Queries*/
+
+@media (max-width:800px){
+    
+    
+   nav h1 {
+        font-size: 2.25rem;
+        display: flex;
+        width: 100%;
+        
+        
+         
+    }
+    .links{
+        flex-direction: row;
+        width: 9%;
+        flex-wrap: wrap;
+        margin-top: 9%;
+        margin-right: 45%;
+        
+        
+    }
+    div.name{
+        width: 25%;
+        margin-left: 49%;
+        margin-bottom: 20%;
+        display:flex;
+    }
+    div.me{
+        margin-top: 60%;
+    }
 }
