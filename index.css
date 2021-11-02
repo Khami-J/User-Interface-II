@@ -193,3 +193,14 @@ footer{
     }
 
 }
+
+@media (max-width:500px){
+    .links{
+        margin-top: 20%;
+        
+    }
+    div.me{
+        margin-top: 95%;
+        width: 100%;
+    }
+    
